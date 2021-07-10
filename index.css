@@ -1,3 +1,4 @@
+/*NORMALIZE CSS*/
 *, *::before, *::after {
     font-family: BeVietnamRegular;
     box-sizing: border-box;
@@ -6,6 +7,7 @@
     max-width: 100%;
   }
 
+/*IMPORTED FONTS*/
 @font-face {
     font-family: BeVietnamRegular;
     src: url(fonts/BeVietnam-Regular.ttf);
@@ -19,4 +21,91 @@
 @font-face {
     font-family: BeVietnamBold;
     src: url(fonts/BeVietnam-Bold.ttf);
+}
+
+body {
+    background-image: url("./images/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-position: 130% -200%;
+}
+
+/*NAVIGATION BAR*/
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 7rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+ul li {
+    display: inline-block;
+    cursor: pointer;
+    align-self: center;
+}
+
+ul li:hover {
+    color: rgb(170, 170, 170);
+}
+
+.inner-nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.get-started-button {
+    border-radius: 3rem;
+    background-color: hsl(12, 88%, 59%);
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+.get-started-button:hover {
+    background-color: hsl(12, 90%, 73%);
+    color: white;
+}
+
+/*FIRST PAGE SECTION/DIV*/
+.first-div-container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 7rem;
+    margin-top: 3rem;
+}
+
+.first-div-container div {
+    flex: 0.5;
+}
+
+.landing-page-header {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.landing-page-description {
+    margin: 2rem 0;
+    color: rgb(170, 170, 170);
+}
+
+.call-to-action {
+    border-radius: 3rem;
+    background-color: hsl(12, 88%, 59%);
+    padding: 0.5rem 1rem;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.call-to-action:hover {
+    background-color: hsl(12, 90%, 73%);
+    color: white;
+}
+
+/*REMOVE BREAK TAGS WHEN THE SCREEN STARTS TO GET SMALLER TO PRESERVE LAYOUT*/
+@media only screen and (max-width: 1100px) {
+    br {
+        display: none;
+    }
 }
