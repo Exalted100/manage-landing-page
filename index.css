@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     max-width: 100%;
+    color: hsl(233, 12%, 13%);
   }
 
 /*IMPORTED FONTS*/
@@ -46,7 +47,7 @@ ul li {
 }
 
 ul li:hover {
-    color: rgb(170, 170, 170);
+    color: hsl(227, 12%, 61%);
 }
 
 .inner-nav-container {
@@ -87,7 +88,7 @@ ul li:hover {
 
 .landing-page-description {
     margin: 2rem 0;
-    color: rgb(170, 170, 170);
+    color: hsl(227, 12%, 61%);
 }
 
 .call-to-action {
@@ -123,7 +124,7 @@ ul li:hover {
 
 .distinction-description {
     margin: 2rem 0;
-    color: rgb(170, 170, 170);
+    color: hsl(227, 12%, 61%);
 }
 
 .distinction-container {
@@ -145,7 +146,7 @@ ul li:hover {
 .distinction-point {
     line-height: 1.8rem;
     width: 70%;
-    color: rgb(170, 170, 170);
+    color: hsl(227, 12%, 61%);
 }
 
 .distinction-point > span {
@@ -158,4 +159,66 @@ ul li:hover {
     .vanish-break {
         display: none;
     }
+}
+
+/*THIRD PAGE SECTION/DIV*/
+.third-div-container {
+    padding: 0 7rem;
+    margin-top: 5rem;
+}
+
+.comments-header {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+.comment-divs-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.comment-divs-container > div {
+    flex: 0.3;
+    text-align: center;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.comment-image-container {
+    width: 5rem;
+    margin: -2.5rem auto;
+}
+
+.comment-image-container img {
+    max-width: 100%;
+}
+
+.commenter-name {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 4rem;
+}
+
+.comment-container {
+    width: 80%;
+    color: hsl(227, 12%, 61%);
+    margin: 1.5rem auto;
+    font-size: 0.9rem;
+}
+
+.comment-get-started {
+    border-radius: 3rem;
+    background-color: hsl(12, 88%, 59%);
+    padding: 0.5rem 1rem;
+    color: white;
+    width: fit-content;
+    margin: 2rem auto;
+    cursor: pointer;
+}
+
+.comment-get-started:hover {
+    background-color: hsl(12, 90%, 73%);
+    color: white;
 }
