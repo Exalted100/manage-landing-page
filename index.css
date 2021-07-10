@@ -1,0 +1,22 @@
+*, *::before, *::after {
+    font-family: BeVietnamRegular;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+
+@font-face {
+    font-family: BeVietnamRegular;
+    src: url(fonts/BeVietnam-Regular.ttf);
+}
+
+@font-face {
+    font-family: BeVietnamMedium;
+    src: url(fonts/BeVietnam-Medium.ttf);
+}
+
+@font-face {
+    font-family: BeVietnamBold;
+    src: url(fonts/BeVietnam-Bold.ttf);
+}
