@@ -1,6 +1,6 @@
 const submitButton = document.querySelector(".submit-button")
 
-const checkMail = () => {
+const checkMail = (event) => {
     try {
         const address = document.querySelector(".email-input").value
         address = new MailAddress(address).Address;
