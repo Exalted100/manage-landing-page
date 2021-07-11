@@ -27,7 +27,11 @@ const toggleHamburger = () => {
     } else {
         hamburgerIcon.setAttribute("src", "./images/icon-hamburger.svg")
         mobileNavMenu.style.display = "none"
-        mobileNavContainer.style.backgroundColor = "none"
+        mobileNavContainer.style.backgroundColor = "rgba(250, 250, 250, 0)"
+        mobileNavContainer.style.width = "100%"
+        mobileNavContainer.style.height = "fit-content"
+        mobileNavContainer.style.top = "0"
+        mobileNavContainer.style.position = "static"
         openHamburger = true
     }
 }
