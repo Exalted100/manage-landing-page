@@ -60,12 +60,12 @@ ul li:hover {
     border-radius: 3rem;
     background-color: hsl(12, 88%, 59%);
     padding: 0.5rem 1rem;
-    color: white;
+    color: hsl(0, 0%, 98%);
 }
 
 .get-started-button:hover {
     background-color: hsl(12, 90%, 73%);
-    color: white;
+    color: hsl(0, 0%, 98%);
 }
 
 /*FIRST PAGE SECTION/DIV*/
@@ -95,14 +95,14 @@ ul li:hover {
     border-radius: 3rem;
     background-color: hsl(12, 88%, 59%);
     padding: 0.5rem 1rem;
-    color: white;
+    color: hsl(0, 0%, 98%);
     width: fit-content;
     cursor: pointer;
 }
 
 .call-to-action:hover {
     background-color: hsl(12, 90%, 73%);
-    color: white;
+    color: hsl(0, 0%, 98%);
 }
 
 /*SECOND PAGE SECTION/DIV*/
@@ -136,7 +136,7 @@ ul li:hover {
     border-radius: 3rem;
     background-color: hsl(12, 88%, 59%);
     padding: 0.3rem 1rem;
-    color: white;
+    color: hsl(0, 0%, 98%);
     height: fit-content;
     font-weight: 700;
     font-size: 0.8rem;
@@ -212,7 +212,7 @@ ul li:hover {
     border-radius: 3rem;
     background-color: hsl(12, 88%, 59%);
     padding: 0.5rem 1rem;
-    color: white;
+    color: hsl(0, 0%, 98%);
     width: fit-content;
     margin: 2rem auto;
     cursor: pointer;
@@ -220,5 +220,34 @@ ul li:hover {
 
 .comment-get-started:hover {
     background-color: hsl(12, 90%, 73%);
-    color: white;
+    color: hsl(0, 0%, 98%);
+}
+
+/*FOURTH PAGE SECTION/DIV*/
+.fourth-div-container {
+    display: flex;
+    padding: 3rem 7rem;
+    margin-top: 5rem;
+    justify-content: space-between;
+    background-color: hsl(12, 88%, 59%);
+}
+
+.fourth-div-container > h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 98%);
+}
+
+.fourth-div-container > p {
+    align-self: center;
+    border-radius: 3rem;
+    background-color: hsl(0, 0%, 98%);
+    padding: 0.5rem 1rem;
+    color: hsl(12, 88%, 59%);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.fourth-div-container > p:hover {
+    color: hsl(12, 90%, 73%);
 }
