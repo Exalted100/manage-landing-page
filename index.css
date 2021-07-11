@@ -98,6 +98,7 @@ ul li:hover {
     color: hsl(0, 0%, 98%);
     width: fit-content;
     cursor: pointer;
+    font-weight: 700;
 }
 
 .call-to-action:hover {
@@ -216,6 +217,7 @@ ul li:hover {
     width: fit-content;
     margin: 2rem auto;
     cursor: pointer;
+    font-weight: 700;
 }
 
 .comment-get-started:hover {
@@ -250,4 +252,87 @@ ul li:hover {
 
 .fourth-div-container > p:hover {
     color: hsl(12, 90%, 73%);
+}
+
+/*FOOTER CONTAINER SECTION*/
+.footer-container {
+    background-color: hsl(228, 39%, 23%);
+    display: flex;
+    padding: 3rem 7rem;
+    justify-content: space-between;
+    color: hsl(0, 0%, 98%);
+}
+
+.manage-logo-container {
+    margin-bottom: 5rem;
+}
+
+.manage-logo-container > img {
+    filter: invert(99%) sepia(13%) saturate(226%) hue-rotate(188deg) brightness(121%) contrast(100%);
+}
+
+.socials-icon-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials-icon-container i:hover {
+    cursor: pointer;
+    filter: invert(57%) sepia(36%) saturate(6804%) hue-rotate(338deg) brightness(98%) contrast(93%);
+}
+
+.footer-text-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    color: white;
+    font-weight: 500;
+}
+
+.footer-text-container p {
+    color: white;
+    margin-bottom: 1.2rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.footer-text-container p:hover {
+    color: hsl(12, 88%, 59%)
+}
+
+.email-input {
+    border-radius: 3rem;
+    border: none;
+    height: 3rem;
+    width: 13rem;
+    margin-right: 0.4rem;
+    padding: 0rem 1.3rem;
+    color: hsl(227, 12%, 61%);
+    font-weight: 500;
+}
+
+.email-input::placeholder {
+    color: hsl(227, 12%, 61%);
+}
+
+.submit-button {
+    border-radius: 3rem;
+    border: none;
+    background-color: hsl(12, 88%, 59%);
+    padding: 0.8rem 1.3rem;
+    color: hsl(0, 0%, 98%);
+    cursor: pointer;
+    font-weight: 700;
+    height: 3rem;
+}
+
+.submit-button:hover {
+    background-color: hsl(12, 90%, 73%);
+}
+
+.error-message {
+    font-style: italic;
+    color: red;
+    font-size: 0.9rem;
+    display: none;
 }
