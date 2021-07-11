@@ -10,11 +10,11 @@
   <title>Frontend Mentor | Manage landing page</title>
 </head>
 <body>
-  <!--NAVIGATION BAR-->
-  <nav>
-    <ul>
+  <!--NAVIGATION BAR DESKTOP-->
+  <nav class="desktop-nav">
+    <ul class="nav-bar-desktop-container">
       <li><img src="./images/logo.svg" alt="Manage Logo"></li>
-      <div class="inner-nav-container">
+      <div class="inner-nav-container-desktop">
         <li tabindex="0">Pricing</li>
         <li tabindex="0">Product</li>
         <li tabindex="0">About Us</li>
@@ -22,6 +22,21 @@
         <li tabindex="0">Community</li>
       </div>
       <li tabindex="0" class="get-started-button">Get Started</li>
+    </ul>
+  </nav>
+
+  <!--NAVIGATION BAR MOBILE-->
+  <nav class="mobile-nav">
+    <div class="nav-images-container">
+      <div><img src="./images/logo.svg" alt="Manage Logo"></div>
+      <div><img class="hamburger-icon" src="./images/icon-hamburger.svg" alt=""></div>
+    </div>
+    <ul class="nav-bar-mobile-container">
+        <li tabindex="0">Pricing</li>
+        <li tabindex="0">Product</li>
+        <li tabindex="0">About Us</li>
+        <li tabindex="0">Careers</li>
+        <li tabindex="0">Community</li>
     </ul>
   </nav>
 
@@ -100,15 +115,12 @@
 
   <!--FOOTER DIV SECTION-->
   <div class="footer-container">
-    <div class="footer-images-container">
-      <div class="manage-logo-container"><img src="./images/logo.svg" alt="manage logo"></div>
-      <div class="socials-icon-container">
-        <i><img src="./images/icon-facebook.svg" alt="Facebook icon"></i>
-        <i><img src="./images/icon-youtube.svg" alt="YouTube icon"></i>
-        <i><img src="./images/icon-twitter.svg" alt="Twitter icon"></i>
-        <i><img src="./images/icon-pinterest.svg" alt="Pinterest icon"></i>
-        <i><img src="./images/icon-instagram.svg" alt="Instagram icon"></i>
-      </div>
+    <div>
+      <form action="">
+        <input type="email" name="email" id="email" placeholder="Updates in your inbox..." aria-label="email for newsletter" class="email-input">
+        <button type="submit" class="submit-button">Go</button>
+        <p class="error-message">Please insert a valid email</p>
+      </form>
     </div>
     <div class="footer-text-container">
       <div>
@@ -123,12 +135,15 @@
         <p>Privacy Policy</p>
       </div>
     </div>
-    <div>
-      <form action="">
-        <input type="email" name="email" id="email" placeholder="Updates in your inbox..." aria-label="email for newsletter" class="email-input">
-        <button type="submit" class="submit-button">Go</button>
-        <p class="error-message">Please insert a valid email</p>
-      </form>
+    <div class="footer-images-container">
+      <div class="manage-logo-container"><img src="./images/logo.svg" alt="manage logo"></div>
+      <div class="socials-icon-container">
+        <i><img src="./images/icon-facebook.svg" alt="Facebook icon"></i>
+        <i><img src="./images/icon-youtube.svg" alt="YouTube icon"></i>
+        <i><img src="./images/icon-twitter.svg" alt="Twitter icon"></i>
+        <i><img src="./images/icon-pinterest.svg" alt="Pinterest icon"></i>
+        <i><img src="./images/icon-instagram.svg" alt="Instagram icon"></i>
+      </div>
     </div>
   </div>
 
