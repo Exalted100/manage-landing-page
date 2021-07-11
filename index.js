@@ -2,6 +2,7 @@ const submitButton = document.querySelector(".submit-button")
 const hamburgerIcon = document.querySelector(".hamburger-icon")
 const mobileNavMenu = document.querySelector(".nav-bar-mobile-container")
 const mobileNavContainer = document.querySelector(".mobile-nav")
+const structuralDiv = document.querySelector(".structural-div")
 
 const checkMail = () => {
     try {
@@ -23,6 +24,7 @@ const toggleHamburger = () => {
         mobileNavContainer.style.height = "100%"
         mobileNavContainer.style.top = "0"
         mobileNavContainer.style.position = "fixed"
+        structuralDiv.style.display = "block"
         openHamburger = false
     } else {
         hamburgerIcon.setAttribute("src", "./images/icon-hamburger.svg")
@@ -32,6 +34,7 @@ const toggleHamburger = () => {
         mobileNavContainer.style.height = "fit-content"
         mobileNavContainer.style.top = "0"
         mobileNavContainer.style.position = "static"
+        structuralDiv.style.display = "none"
         openHamburger = true
     }
 }

@@ -80,6 +80,10 @@ body {
         display: none;
     }
 
+    .mobile-nav {
+        height: 6rem;
+    }
+
     .nav-images-container {
         display: flex;
         justify-content: space-between;
@@ -118,6 +122,12 @@ body {
           margin-top: 0%;
         }
       }
+}
+
+/*TO MAINTAIN NAV BAR STRUCTURE IN MOBILE WHEN THE NAV BAR POSITION IS ABSOLUTE*/
+.structural-div {
+    display: none;
+    height: 6rem;
 }
 
 /*FIRST PAGE SECTION/DIV*/
