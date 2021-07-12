@@ -70,6 +70,9 @@ body {
     
     .get-started-button:hover {
         background-color: hsl(12, 90%, 73%);
+    }
+
+    #get-started-button:hover {
         color: hsl(0, 0%, 98%);
     }
 }

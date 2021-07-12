@@ -10,6 +10,7 @@ const checkMail = () => {
         address = new MailAddress(address).Address;
     } catch(FormatException) {
         document.querySelector(".error-message").style.display = "block"
+        document.querySelector(".email-input").style.color = "red"
     }
 }
 
