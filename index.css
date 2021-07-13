@@ -279,6 +279,7 @@ body {
         flex: 0.3;
         text-align: center;
         background-color: hsl(0, 0%, 98%);
+        padding: 3rem;
     }
 
     .comment-image-container {
